@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/dnurdaisy/diary/issues"
   },
-  "homepage": "https://github.com/dnurdaisy/diary#readme"
+  "homepage": "https://github.com/dnurdaisy/diary#readme",
+  "dependencies": {
+    "compression": "1.6.2",
+    "express": "4.14.0",
+    "path": "0.12.7",
+    "react": "15.1.0",
+    "react-dom": "15.1.0"
+  }
 }
